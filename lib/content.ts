@@ -20,15 +20,15 @@ export const caseStudies = [
     challenge: "Rising impressions were not translating into clicks as buyers shifted toward AI interfaces. A client-side rendered site left priority content difficult for non-JavaScript crawlers to access.",
     action: "Diagnosed the rendering barrier, translated it into engineering requirements, prioritized server-side rendering and aligned canonicalization, structured data, Core Web Vitals and multi-engine monitoring.",
     outcome: "Removed a major discoverability constraint and established a repeatable operating model for search-engine indexing, AI citation readiness and qualified inbound discovery.",
-    proof: "/images/semrush-sanitized.png", alt: "Sanitized SEMrush dashboard showing AI visibility and organic performance metrics", caption: "AI-search readiness extended beyond rankings: 18 visibility, 14 mentions and 859 cited pages in the captured market view."
+    proof: "/images/semrush-sanitized.jpg", alt: "Sanitized SEMrush dashboard showing AI visibility and organic performance metrics", caption: "AI-search readiness extended beyond rankings: 18 visibility, 14 mentions and 859 cited pages in the captured market view."
   },
   {
     index: "02", kicker: "Polyvalent Digital Service · 2024—2026", title: "From 12 organic clicks to 33.1K",
     challenge: "A client website had minimal organic reach and needed one coherent system spanning technical hygiene, content, publishing and measurement.",
     action: "Owned keyword and competitor research, SEO-led editorial planning, on-page optimization, analytics and multi-channel creative coordination as the sole digital marketer.",
     outcome: "Built a compounding organic growth engine: clicks increased from 12 to 33.1K and impressions from 464 to 2.85M across the captured 12-month view.",
-    beforeProof: "/images/gsc-before-sanitized.png", beforeAlt: "Sanitized Google Search Console baseline showing 12 clicks and 464 impressions",
-    proof: "/images/gsc-12m-sanitized.png", alt: "Sanitized Google Search Console chart showing 33.1K clicks and 2.85M impressions", caption: "A direct baseline-to-result comparison: from 12 clicks and 464 impressions to 33.1K clicks and 2.85M impressions."
+    beforeProof: "/images/gsc-before-sanitized.jpg", beforeAlt: "Sanitized Google Search Console baseline showing 12 clicks and 464 impressions",
+    proof: "/images/gsc-12m-sanitized.jpg", alt: "Sanitized Google Search Console chart showing 33.1K clicks and 2.85M impressions", caption: "A direct baseline-to-result comparison: from 12 clicks and 464 impressions to 33.1K clicks and 2.85M impressions."
   },
   {
     index: "03", kicker: "Coinfantasy · GameFi / Web3 · 2024", title: "Building search and community foundations in Web3",
