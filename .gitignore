@@ -1,0 +1,15 @@
+# dependencies and builds
+/node_modules
+/.next
+/out
+/outputs
+*.tsbuildinfo
+
+# private/local working material
+/work
+/.env*
+!.env.example
+
+# logs and system files
+*.log
+.DS_Store
