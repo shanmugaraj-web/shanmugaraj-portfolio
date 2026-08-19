@@ -1,6 +1,6 @@
 export const metrics = [
-  { value: "12 → 33.1K", label: "organic clicks", detail: "Polyvalent client SEO work · baseline to 2025 result" },
-  { value: "464 → 2.85M", label: "search impressions", detail: "Polyvalent client SEO work · baseline to 2025 result" },
+  { value: "12 → 33.1K", label: "organic clicks", detail: "In-house product growth · anonymized baseline to result" },
+  { value: "464 → 2.85M", label: "search impressions", detail: "In-house product growth · anonymized baseline to result" },
   { value: "81 → 13.3", label: "average position", detail: "Lower is better · Search Console improvement" },
   { value: "9K", label: "28-day click milestone", detail: "Google Search Impact achievement · December 2025" },
 ];
@@ -16,15 +16,15 @@ export const capabilities = [
 
 export const caseStudies = [
   {
-    index: "01", kicker: "SimplAI.ai · 2026—present", title: "Making an AI platform readable to answer engines",
+    index: "01", kicker: "AI automation product · 2026—present", title: "Making an AI platform readable to answer engines",
     challenge: "Rising impressions were not translating into clicks as buyers shifted toward AI interfaces. A client-side rendered site left priority content difficult for non-JavaScript crawlers to access.",
     action: "Diagnosed the rendering barrier, translated it into engineering requirements, prioritized server-side rendering and aligned canonicalization, structured data, Core Web Vitals and multi-engine monitoring.",
     outcome: "Removed a major discoverability constraint and established a repeatable operating model for search-engine indexing, AI citation readiness and qualified inbound discovery.",
     proof: "/images/semrush-sanitized.jpg", alt: "Sanitized SEMrush dashboard showing AI visibility and organic performance metrics", caption: "AI-search readiness extended beyond rankings: 18 visibility, 14 mentions and 859 cited pages in the captured market view."
   },
   {
-    index: "02", kicker: "Polyvalent Digital Service · 2024—2026", title: "From 12 organic clicks to 33.1K",
-    challenge: "A client website had minimal organic reach and needed one coherent system spanning technical hygiene, content, publishing and measurement.",
+    index: "02", kicker: "In-house product growth · 2025", title: "From 12 organic clicks to 33.1K",
+    challenge: "A product website had minimal organic reach and needed one coherent system spanning technical hygiene, content, publishing and measurement.",
     action: "Owned keyword and competitor research, SEO-led editorial planning, on-page optimization, analytics and multi-channel creative coordination as the sole digital marketer.",
     outcome: "Built a compounding organic growth engine: clicks increased from 12 to 33.1K and impressions from 464 to 2.85M across the captured 12-month view.",
     beforeProof: "/images/gsc-before-sanitized.jpg", beforeAlt: "Sanitized Google Search Console baseline showing 12 clicks and 464 impressions",
