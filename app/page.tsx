@@ -4,13 +4,13 @@ import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { CaseStudy } from "@/components/CaseStudy";
 import { ToolGrid } from "@/components/ToolGrid";
+import { MarketingBackground } from "@/components/MarketingBackground";
 import { capabilities, caseStudies, experience, metrics, process } from "@/lib/content";
 
 const personSchema = {
   "@context": "https://schema.org", "@type": "Person", name: "Shanmugaraj Y",
   jobTitle: "Digital Marketer & AI Search Strategist",
   description: "Digital marketing specialist focused on AI search optimization, technical SEO, organic growth and B2B demand generation.",
-  worksFor: { "@type": "Organization", name: "SimplAI.ai" },
   knowsAbout: ["Answer Engine Optimization", "Generative Engine Optimization", "Technical SEO", "B2B Demand Generation", "Content Strategy", "Marketing Analytics"],
 };
 
@@ -19,18 +19,19 @@ export default function Home() {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
     <a className="skip-link" href="#main">Skip to content</a>
     <div className="noise" aria-hidden />
+    <MarketingBackground />
     <Header />
     <main id="main">
       <section className="hero" id="top">
         <div className="hero-orbit" aria-hidden><div className="orbit-core"><BrainCircuit /></div><span className="orbit orbit-one"/><span className="orbit orbit-two"/><i className="node n1"/><i className="node n2"/><i className="node n3"/></div>
-        <Reveal className="hero-copy"><p className="hero-name">SHANMUGARAJ Y</p><p className="eyebrow"><span />AI Search Strategist · Digital Marketer</p><h1>I turn search complexity into <em>compounding visibility.</em></h1><p className="hero-deck">Technical SEO, answer-engine readiness and demand-led content—built into one measurable growth system.</p><p className="hero-company">Currently building AI-search growth at <strong>SimplAI.ai</strong></p><div className="hero-actions"><a className="button primary" href="#work">Explore selected work <ArrowDownRight /></a><a className="button ghost" href="#contact">Start a conversation <ArrowRight /></a></div><div className="hero-trust"><ShieldCheck /><span>Performance evidence is sanitized to protect private account and client data.</span></div></Reveal>
+        <Reveal className="hero-copy"><p className="hero-name">SHANMUGARAJ Y</p><p className="eyebrow"><span />AI Search Strategist · Digital Marketer</p><h1>I turn search complexity into <em>compounding visibility.</em></h1><p className="hero-deck">Technical SEO, answer-engine readiness and demand-led content—built into one measurable growth system.</p><div className="hero-actions"><a className="button primary" href="#work">Explore selected work <ArrowDownRight /></a><a className="button ghost" href="#contact">Start a conversation <ArrowRight /></a></div><div className="hero-trust"><ShieldCheck /><span>Performance evidence is sanitized to protect private account and client data.</span></div></Reveal>
         <div className="hero-side"><p>Operating across</p><ul><li>Traditional search</li><li>AI answer engines</li><li>B2B acquisition</li></ul><div className="status"><i/>Open to high-impact growth work</div></div>
         <div className="scroll-cue"><span>SCROLL TO SIGNAL</span><i/></div>
       </section>
 
       <section className="profile section"><Reveal><SectionHeading eyebrow="Profile" title="A systems thinker at the intersection of search, product and demand." /></Reveal><div className="profile-grid"><Reveal className="profile-lead"><p>Digital marketer and AI search strategist experienced in building organic visibility across traditional search and emerging answer engines.</p></Reveal><Reveal className="profile-body" delay={.08}><p>My work connects technical diagnosis with coordinated action across engineering, product, design and content. The remit spans AEO, GEO, AIO, technical SEO, editorial strategy, B2B demand generation, paid media, analytics and marketing automation.</p><p>The constant is simple: find the constraint, build the operating system around it and make progress visible in the data.</p></Reveal></div></section>
 
-      <section className="metrics-band" aria-labelledby="impact-title"><div className="metrics-heading"><p className="eyebrow"><span />Selected impact · Polyvalent · 2025</p><h2 id="impact-title">From near-zero to measurable organic growth.</h2><p className="metrics-context">Results achieved while leading organic search work at Polyvalent Digital Service in 2025.</p></div><div className="metric-grid">{metrics.map((m, i) => <Reveal key={m.label} className="metric-card" delay={i * .06}><div className="metric-number">{m.value}</div><h3>{m.label}</h3><p>{m.detail}</p></Reveal>)}</div></section>
+      <section className="metrics-band" aria-labelledby="impact-title"><div className="metrics-heading"><p className="eyebrow"><span />Selected impact</p><h2 id="impact-title">From near-zero to measurable organic growth.</h2><p className="metrics-context">Anonymized results from hands-on in-house product growth work across search, content and measurement.</p></div><div className="metric-grid">{metrics.map((m, i) => <Reveal key={m.label} className="metric-card" delay={i * .06}><div className="metric-number">{m.value}</div><h3>{m.label}</h3><p>{m.detail}</p></Reveal>)}</div></section>
 
       <section className="work section" id="work"><Reveal><SectionHeading eyebrow="Case studies" title="Three problems. Three growth systems." intro="Outcome-led work supported by privacy-sanitized performance evidence. URLs, account details and client-identifying data remain removed." /></Reveal><div className="cases">{caseStudies.map((study, i) => <CaseStudy key={study.index} study={study} reverse={i % 2 === 1} />)}</div></section>
 
