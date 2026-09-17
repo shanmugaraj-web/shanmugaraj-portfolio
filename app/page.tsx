@@ -15,6 +15,8 @@ import { services, process, metrics } from "@/lib/content";
 const email =
   "mailto:shanmugarajysr@gmail.com?subject=Let%27s%20discuss%20a%20project";
 
+const linkedIn = "https://www.linkedin.com/in/shanmugaraj-digitalmarketer/";
+
 export default function Home() {
   return (
     <>
@@ -63,7 +65,7 @@ export default function Home() {
                 I connect SEO, AI visibility, brand authority and sales funnels to help businesses move from discovery to meaningful action.
               </p>
               <div className="hero-actions">
-                <a className="button primary" href={email}>
+                <a className="button primary" href={linkedIn}>
                   Let’s connect <ArrowUpRight size={19} />
                 </a>
                 <a className="text-link" href="#work">
@@ -158,7 +160,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <a
-                  href={`mailto:shanmugarajysr@gmail.com?subject=${encodeURIComponent(service.title + " enquiry")}`}
+                  href={linkedIn}
                 >
                   Discuss {service.short} <ArrowUpRight size={18} />
                 </a>
